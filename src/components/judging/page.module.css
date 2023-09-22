@@ -1,0 +1,107 @@
+.container{
+    height: 130vh;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 64px;
+    border-bottom: 2px solid #ffffff17;
+    overflow:hidden;
+    position: relative;
+}
+
+.imageContainer{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.textContainer{
+    width: 40%;
+    align-items: flex-start;
+    position: relative;
+}
+
+.mainImage{
+    z-index: 11;
+    width: 100%;
+}
+
+.titleImg{
+    z-index: 1000;
+}
+
+.purple{
+    color: #D434FE;
+    /* line-height: -8px; */
+}
+
+.purpleImg{
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    height: 500px;
+    top: -300px;
+    right: -350px;
+    opacity: 1;
+}
+
+.mainTitle{
+    z-index: 10000;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+
+.para{
+    z-index: 10000;
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+
+.sata{
+    position: absolute;
+    top: -100px;
+    left: 50px;
+}
+
+.star2{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+}
+
+.star1{
+    position: absolute;
+    bottom: 0%;
+    right: -64px;
+}
+
+.purpleImg2{
+    position: absolute;
+    /* z-index: 10; */
+    width: 500px;
+    height: 700px;
+    bottom: -350px;
+    left: -100px;
+    /* opacity: .5; */
+}
+
+.ellipse{
+    position: absolute;
+    top: -40px;
+    left: -8px;
+    z-index: -100;
+}
+
+.purpleImg3{
+    position: absolute;
+    /* z-index: 10; */
+    width: 700px;
+    height: 700px;
+    bottom: -350px;
+    right: -350px;
+    opacity: .5;
+}

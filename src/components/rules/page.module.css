@@ -1,0 +1,76 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 64px;
+    border-bottom: 2px solid #ffffff17;
+    overflow:hidden;
+    position: relative;
+}
+
+.imageContainer{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.textContainer{
+    width: 40%;
+    align-items: flex-start;
+    position: relative;
+}
+
+.mainImage{
+    /* z-index: -11; */
+    width: 100%;
+}
+
+.titleImg{
+    z-index: 1000;
+}
+
+.purple{
+    color: #D434FE;
+    /* line-height: -8px; */
+}
+
+.purpleImg{
+    position: absolute;
+    z-index: 10;
+    width: 700px;
+    height: 500px;
+    top: -150px;
+    left: -80px;
+    opacity: .5;
+}
+
+.mainTitle{
+    z-index: 10000;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.para{
+    z-index: 10000;
+}
+
+.star2{
+    position: absolute;
+    top: -40px;
+    right: 50%;
+}
+
+.purpleImg2{
+    position: absolute;
+    /* z-index: 10; */
+    width: 500px;
+    height: 700px;
+    bottom: -350px;
+    right: -350px;
+    opacity: .5;
+}
+

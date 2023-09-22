@@ -1,0 +1,141 @@
+.container{
+    height: 105vh;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 64px;
+    border-bottom: 2px solid #ffffff17;
+    overflow:hidden;
+    position: relative;
+    /* align-items: flex-end; */
+}
+
+.imageContainer{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.textContainer{
+    width: 40%;
+    align-items: flex-start;
+    position: relative;
+}
+
+.mainImage{
+    /* z-index: -11; */
+    width: 100%;
+}
+
+.mainImg{
+    width: 80%;
+}
+
+.titleImg{
+    z-index: 1000;
+}
+
+.purple{
+    color: #D434FE;
+    /* line-height: -8px; */
+}
+
+.purpleImg{
+    position: absolute;
+    z-index: 10;
+    width: 700px;
+    height: 500px;
+    top: -400px;
+    left: -180px;
+    opacity: .5;
+}
+
+.mainTitle{
+    z-index: 10000;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.para{
+    z-index: 10000;
+}
+
+.star2{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.star1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+
+.star3{
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    width: 16px;
+}
+
+.star4{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 24px;
+}
+
+
+ 
+
+.purpleImg2{
+    position: absolute;
+    /* z-index: 10; */
+    width: 500px;
+    height: 700px;
+    top: -450px;
+    right: -150px;
+    opacity: .5;
+}
+
+.q{
+    position: absolute;
+    top: -9%;
+    /* left: 50%; */
+    width: 50px;
+    right: 55%;
+}
+
+.qq{
+    position: absolute;
+    top: -1%;
+    width: 30px;
+    left: 25%;
+}
+
+.qqq{
+    position: absolute;
+    top: -1%;
+    right: 40%;
+    width: 30px;
+}
+
+.FAQs{
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.FAQ{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #D434FE;
+    padding-bottom: 13px;
+}

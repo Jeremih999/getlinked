@@ -1,0 +1,53 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 64px;
+    border-bottom: 2px solid #ffffff17;
+}
+
+.imageContainer{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.textContainer{
+    width: 40%;
+    align-items: flex-start;
+}
+
+.mainImage{
+    z-index: -11;
+    width: 100%;
+}
+
+.titleImg{
+    z-index: 1000;
+}
+
+.purple{
+    color: #D434FE;
+    /* line-height: -8px; */
+}
+
+.arrow{
+    position: absolute;
+    bottom: -16px;
+    right: -32px;
+}
+
+.sata{
+    position: absolute;
+    left: -32px;
+    top: 170px;
+}
+
+.mainTitle{
+    z-index: 10000;
+    font-size: 32px;
+    margin-bottom: 16px;
+}

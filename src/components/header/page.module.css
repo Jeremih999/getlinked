@@ -1,0 +1,133 @@
+.mainContainer{
+    position: relative;
+    /* height: max-content; */
+    padding: 0 64px ;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+    border-bottom: 2px solid #ffffff17;
+}
+
+.imageContainer{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: -150px;
+    left: 72px;
+    z-index: -100;
+}
+
+.image{
+    /* position: absolute; */
+    object-fit: contain;
+    width:100%;
+}
+
+.container{
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    padding-top: 5rem;
+}
+
+.headerImage{
+    position: relative;
+    width: 45%;
+    /* height: 400px; */
+}
+
+.purple{
+    color: #D434FE;
+}
+
+.title{
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+
+.title h1{
+    font-size: 80px;
+    font-weight: 700;
+    /* line-height: 99px; */
+}
+
+.subText{
+    font-size: 20px;
+    margin: 8px 0 41px 0;
+}
+
+.timer{
+    display: flex;
+    margin-top: 77px;
+}
+
+.timer h1{
+    font-size: 64px;
+}
+
+.subscript{
+    font-size: 24px;
+}
+
+.imageBulb{
+    position: absolute;
+    right: 60px;
+    top: -40px;
+}
+
+.imageChain{
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+}
+
+.imageBlast{
+    position: absolute;
+    right: -140px;
+    bottom: 5px;
+}
+
+.imageHead{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    /* right: 50%; */
+    width: 440px;
+    height: 420px;
+}
+
+.imagePurple{
+    position: absolute;
+    top: -30px;
+    left: 100px;
+    /* right: 50%; */
+    width: 440px;
+    height: 420px;
+}
+
+.textSection{
+    position: relative;
+}
+
+.imageStar1{
+    position: absolute;
+    top: -70px;
+    left: 0;
+}
+
+.imageStar2{
+    position: absolute;
+    top: -30px;
+    right: -120px;
+}
+
+.imageStar3{
+    position: absolute;
+    bottom: 90px;
+    right: 140px;
+}
