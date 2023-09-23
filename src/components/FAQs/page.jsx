@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./page.module.css";
 
 
-function FAQs(params) {
+function FAQs() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="faqs">
             <div className={styles.imageContainer}>
                 {/* <h2 className={styles.titleImg}>The Big <br /> Idea!</h2> */}
                 <img src="/tots.png" alt="illustration" className={styles.mainImg} />

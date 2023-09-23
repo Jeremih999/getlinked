@@ -10,7 +10,7 @@ function Header() {
       <div className={styles.container}>
         <div className={styles.textSection}>
           <div className={styles.title}>
-            <h1>getlinked Tech <br /> Hackacthon <span className={styles.purple}>1.0</span></h1>
+            <h1 className={styles.hh1}>getlinked Tech <br /> Hackacthon <span className={styles.purple}>1.0</span></h1>
               <img src="/bulb.png" alt="purple flare" fill={true} className={styles.imageBulb} />
               <img src="/chain.png" alt="purple flare" fill={true} className={styles.imageChain} />
               <img src="/blast.png" alt="purple flare" fill={true} className={styles.imageBlast} />
@@ -28,7 +28,7 @@ function Header() {
           <img src="/star (1).png" alt="purple flare" fill={true} className={styles.imageStar3} />
         </div>
         <div className={styles.headerImage}>
-          <img src="/mann.png" alt="purple flare" fill={true} className={styles.image} />
+          <img src="/mann.png" alt="purple flare" fill={true} className={styles.imageMain} />
           <img src="/purpleo.png" alt="purple flare" fill={true} className={styles.imagePurple} />
           <img src="/head.png" alt="purple flare" fill={true} className={styles.imageHead} />
         </div>
@@ -36,7 +36,7 @@ function Header() {
 
 
       <div className={styles.imageContainer}>
-        <img src="/purpleo.png" alt="purple flare" fill={true} className={styles.image} />
+        <img src="/purple.png" alt="purple flare" fill={true} className={styles.image} />
       </div>
     </div>
   )

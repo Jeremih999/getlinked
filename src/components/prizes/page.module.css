@@ -1,0 +1,264 @@
+.container{
+    height: 130vh;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 64px;
+    border-bottom: 2px solid #ffffff17;
+    overflow:hidden;
+    position: relative;
+}
+
+.imageContainer{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.textContainer{
+    width: 40%;
+    align-items: flex-start;
+    position: relative;
+}
+
+.mainImage{
+    z-index: 11;
+    width: 100%;
+}
+
+.titleImg{
+    z-index: 1000;
+}
+
+.purple{
+    color: #D434FE;
+    /* line-height: -8px; */
+}
+
+.purpleImg{
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    height: 500px;
+    top: -300px;
+    right: -350px;
+    opacity: 1;
+}
+
+.mainTitle{
+    z-index: 10000;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+
+.para{
+    z-index: 10000;
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+
+.sata{
+    position: absolute;
+    top: -100px;
+    left: 50px;
+}
+
+
+.ellipse{
+    position: absolute;
+    top: -40px;
+    left: -8px;
+    z-index: -100;
+}
+
+.purpleImg3{
+    position: absolute;
+    z-index: -10;
+    width: 700px;
+    height: 700px;
+    top: -250px;
+    right: -250px;
+    /* opacity: 1; */
+}
+
+.medalContainer{
+    display: flex;
+    margin-top: 14rem;
+    gap: 32px;
+}
+
+.silver, .gold, .bronze{
+    background: #ffffff15;
+    border: 1px solid #D434FE;
+    position: relative;
+    padding: 22px 32px;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.gold{
+    margin-top: 26px;
+}
+
+.golden{
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    top: -140px;
+}
+
+.silverMedal, .bronzeMedal{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -90px;
+}
+
+.position{
+    font-size: 36px;
+}
+
+.amount{
+    font-size: 32px;
+    color: #D434FE;
+}
+
+.amountFirst{
+    font-size: 32px;
+    color: #903AFF;
+}
+
+.run{
+    font-size: 26px;
+}
+
+.trophy{
+    z-index: 100;
+}
+
+
+.star1{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.star2{
+    position: absolute;
+    right: 12%;
+    bottom: 15%;
+}
+
+.star3{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.star4{
+    position: absolute;
+    top: 65%;
+    left: 42%;
+}
+
+.star5{
+    position: absolute;
+    right: 6%;
+}
+
+.star6{
+    position: absolute;
+    bottom: 12%;
+    left: 25%;
+    width: 16px;
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 72px;
+        height: max-content;
+        padding: 32px 20px;
+    }
+
+    .textContainer{
+        width: 80%;
+        padding-bottom: 48px;
+    }
+    .trophy{
+        /* width: 320px;
+        height: 320px; */
+        width: 80%;
+    }
+
+    .imageContainer{
+        /* padding: 20px; */
+        width: 100%;
+    }
+
+    .medalContainer{
+        display: flex;
+        margin-top: 9rem;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    
+    .silver, .gold, .bronze{
+        background: #ffffff15;
+        border: 1px solid #D434FE;
+        position: relative;
+        padding: 32px 18px 16px 18px;
+        height: 100px;
+        width: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .gold{
+        margin-top: 26px;
+    }
+    
+    .golden{
+        width: 110px;
+        height: 100px;
+        position: absolute;
+        top: -70px;
+    }
+    
+    .silverMedal, .bronzeMedal{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: -40px;
+    }
+
+    .position{
+        font-size: 16px;
+    }
+    
+    .amount{
+        font-size: 16px;
+        color: #D434FE;
+    }
+    
+    .amountFirst{
+        font-size: 16px;
+        color: #903AFF;
+    }
+    
+    .run{
+        font-size: 12px;
+    }
+}

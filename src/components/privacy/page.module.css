@@ -1,0 +1,202 @@
+.container {
+    height: 120vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 64px;
+    border-bottom: 2px solid #ffffff17;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageContainer {
+    width: 55%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.padlock {
+    width: 55%;
+}
+
+.shield {
+    width: 55%;
+    position: absolute;
+    top: -30%;
+    left: 30%;
+}
+
+.textContainer {
+    width: 45%;
+    align-items: center;
+    position: relative;
+}
+
+
+.purple {
+    color: #D434FE;
+    /* line-height: -8px; */
+}
+
+.mainTitle {
+    z-index: 10000;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.subTitle {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.para {
+    font-size: 14px;
+}
+
+.star2 {
+    position: absolute;
+    top: -5%;
+    left: 0%;
+    width: 24px;
+}
+
+.star1 {
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    width: 16px;
+}
+
+.star7 {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    width: 24px;
+}
+
+.star5 {
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    width: 14px;
+}
+
+.star6 {
+    position: absolute;
+    top: -8%;
+    right: 25%;
+    width: 14px;
+}
+
+
+.star3 {
+    position: absolute;
+    top: -3%;
+    right: 35%;
+    width: 24px;
+}
+
+.star4 {
+    position: absolute;
+    bottom: 30%;
+    left: -10%;
+    width: 24px;
+}
+
+.q {
+    position: absolute;
+    top: -9%;
+    /* left: 50%; */
+    width: 50px;
+    right: 55%;
+}
+
+.qq {
+    position: absolute;
+    top: -1%;
+    width: 30px;
+    left: 25%;
+}
+
+.qqq {
+    position: absolute;
+    top: -1%;
+    right: 40%;
+    width: 30px;
+}
+
+.texting {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 59px 72px;
+    background: #ffffff04;
+    border: 1px solid #D434FE;
+    position: relative;
+}
+
+.firstText {
+    font-size: 14px;
+}
+
+.purpleText {
+    font-size: 16px;
+    color: #D434FE;
+    font-weight: 700;
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    /* align-items: center; */
+}
+
+.but {
+    align-self: center;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        height: max-content;
+        padding: 9rem 2rem;
+
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .texting {
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 20px;
+        background: #ffffff04;
+        border: 1px solid #D434FE;
+        position: relative;
+    }
+
+
+    .imageContainer {
+        width: 100%;
+    }
+
+
+    .padlock {
+        width: 80%;
+    }
+
+    .shield {
+        width: 70%;
+        position: absolute;
+        top: -30%;
+        /* left: 30%; */
+    }
+}

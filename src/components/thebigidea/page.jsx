@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 function TheBigIdea() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="overview">
             <div className={styles.imageContainer}>
                 {/* <h2 className={styles.titleImg}>The Big <br /> Idea!</h2> */}
                 <img src="/the big idea.png" alt="illustration" className={styles.mainImg} />

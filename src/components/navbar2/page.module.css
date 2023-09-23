@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
     align-items: center;
@@ -7,16 +7,16 @@
     border-bottom: 1px solid #ffffff17;
 }
 
-.logo{
+.logo {
     font-size: 36px;
     font-weight: 700;
 }
 
-.purple{
+.purple {
     color: #D434FE;
 }
 
-.newDiv{
+.newDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +24,7 @@
     width: 60%;
 }
 
-.linksContainer{
+.linksContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,9 +33,20 @@
 }
 
 
-.links{
+.links {
     font-size: 16px;
 }
+
+#special {
+    background-image: linear-gradient(to right, #903AFF, #FF26B9);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-color: #fcb045;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 700px){
     .linksContainer{
