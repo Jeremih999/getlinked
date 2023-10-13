@@ -9,4 +9,5 @@
     background: #903AFF;
     background: linear-gradient(to left, #903AFF, #D434FE, #FF26B9, #FE34B9);
     border: none;
+    cursor: pointer;
 }

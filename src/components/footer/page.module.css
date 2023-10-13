@@ -77,6 +77,28 @@
     width: 16px;
 }
 
+#socials{
+    display: flex;
+    gap: 16px;
+}
+
+.socialsContainer{
+    display: flex;
+    gap: 14px;
+}
+
+
+.socialImage{
+    position: absolute;
+    object-fit: contain;
+}
+
+.socCont{
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
 @media screen and (max-width: 700px) {
     .container{
         grid-template-columns: 1fr;

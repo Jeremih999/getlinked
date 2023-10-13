@@ -102,6 +102,29 @@
     left: 50%;
 }
 
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.socialsContainer{
+    display: flex;
+    gap: 14px;
+}
+
+
+.socialImage{
+    position: absolute;
+    object-fit: contain;
+}
+
+.socCont{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
 @media screen and (max-width: 700px){
     .container{
         flex-direction: column;

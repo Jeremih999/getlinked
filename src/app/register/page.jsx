@@ -2,12 +2,15 @@ import React from "react";
 import styles from "./page.module.css";
 import Navbar3 from "@/components/navbar3/page";
 import Button from "@/components/Button/page";
+import SuccessMsg from "@/components/successMsg/page";
 
 function Register() {
     return (
-        <>
-            <Navbar3 />
+         <div className={styles.main}>
+             <Navbar3 />
+            <SuccessMsg />
             <div className={styles.container}>
+               
                 <img src="/purple.png" alt="imole" className={styles.purpleImg1} />
                 <img src="/purple.png" alt="imole" className={styles.purpleImg2} />
                 {/*  <img src="/star.png" alt="imole" className={styles.star1} /> 
@@ -32,24 +35,37 @@ function Register() {
                                 <input type="text" placeholder="Enter the name of your group" className={styles.input} />
                             </div>
                             <div className={styles.formControl}>
-                                <label className={styles.label}>Team's Name</label>
-                                <input type="text" placeholder="Enter the name of your group" className={styles.input} />
+                                <label className={styles.label}>Phone Number</label>
+                                <input type="number" placeholder="Enter your Phone number" className={styles.input} />
                             </div>
                             <div className={styles.formControl}>
-                                <label className={styles.label}>Team's Name</label>
-                                <input type="text" placeholder="Enter the name of your group" className={styles.input} />
+                                <label className={styles.label}>Email</label>
+                                <input type="email" placeholder="Enter your email" className={styles.input} />
                             </div>
                             <div className={styles.formControl}>
-                                <label className={styles.label}>Team's Name</label>
-                                <input type="text" placeholder="Enter the name of your group" className={styles.input} />
+                                <label className={styles.label}>Project topic</label>
+                                <input type="text" placeholder="Enter the topic of your project" className={styles.input} />
                             </div>
                             <div className={styles.formControl}>
-                                <label className={styles.label}>Team's Name</label>
-                                <input type="text" placeholder="Enter the name of your group" className={styles.input} />
+                                <label className={styles.label}>Category</label>
+                                {/* <input type="text" placeholder="Enter the name of your group" className={styles.input} /> */}
+                                <select className={styles.input}>
+                                    <option className={styles.option}>select category</option>
+                                    <option className={styles.option}>Frontend Website</option>
+                                    <option className={styles.option}>Api</option>
+                                    <option className={styles.option}>Ui/Ux</option>
+                                    <option className={styles.option}>DevOps</option>
+                                    <option className={styles.option}>Full stack</option>
+                                </select>
                             </div>
                             <div className={styles.formControl}>
-                                <label className={styles.label}>Team's Name</label>
-                                <input type="text" placeholder="Enter the name of your group" className={styles.input} />
+                                <label className={styles.label}>Team's Size</label>
+                                <select className={styles.input}>
+                                    <option className={styles.option}>select</option>
+                                    <option className={styles.option}>1-5</option>
+                                    <option className={styles.option}>6-10</option>
+                                    <option className={styles.option}>11-20</option>
+                                </select>
                             </div>
                         </div>
                         <div className={styles.extra}>
@@ -64,7 +80,8 @@ function Register() {
                     </form>
                 </div>
             </div>
-        </>
+         </div>
+           
 
     )
 }

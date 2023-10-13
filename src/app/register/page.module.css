@@ -1,3 +1,9 @@
+.main{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
 .container{
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -71,6 +77,7 @@
     padding: 16px;
     border: 1px solid #fff;
     border-radius: 8px;
+    color: #bbb;
 }
 
 .purpleT{
@@ -154,4 +161,11 @@
     .inputs{
         grid-template-columns: 1fr;
     }
+}
+
+
+.option{
+    padding: 16px;
+    background: #150E28;
+    color: #fff;
 }
