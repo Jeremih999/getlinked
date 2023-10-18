@@ -1,4 +1,6 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
 import styles from "./page.module.css";
 // import Navbar from "@/components/navbar/page";
 import Button from "@/components/Button/page";
@@ -7,6 +9,39 @@ import Image from "next/image";
 // import Navbar3 from "@/components/navbar3/page";
 
 function Contact() {
+    const [success, setSuccess] = useState(false)
+    const [err, setErr] = useState(false)
+
+
+    async function handleSubmit(e) {
+        e.preventDefault() 
+
+        console.log("it's workin")
+        const first_name = e.target[0].value;
+        const email = e.target[1].value;
+        const message = e.target[2].value;
+
+ 
+        try {
+            const res= await fetch(`${baseUrl}/hackathon/registration`, {
+                method : "POST",
+                headers : {
+                    "Content-Type" : "application/json"
+                },
+                body : JSON.stringify({
+                    email:"sample@eexample.com",
+                    phone_number:"0903322445533",
+                    first_name: "Space Explore",
+                    message: "I need further info"
+                }),
+            })
+
+            console.log("it worked")
+            res.status == setSuccess(true)
+        } catch (error) {
+            setErr(true)
+        }
+    }
     return (
         <>
             <Navbar2 />
@@ -63,11 +98,11 @@ function Contact() {
                 <div className={styles.formContainer}>
                     <h1 className={styles.formHeading}>Questions or need assistance?</h1>
                     <h1 className={styles.formHeading}>Let us know  about it!</h1>
-                    <form className={styles.form}>
+                    <form className={styles.form} onSubmit={handleSubmit}>
                         <input type="text" placeholder="First Name" className={styles.input} />
                         <input type="email" placeholder="Mail" className={styles.input} />
                         <textarea cols={30} rows={5} placeholder="Message" className={styles.textArea}></textarea>
-                        <Button url={"/#"} text={"Submit"} />
+                        <button className={styles.button}>Submit</button>
                     </form>
                 </div>
             </div>

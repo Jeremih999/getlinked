@@ -125,6 +125,20 @@
     height: 20px;
 }
 
+.button{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 19.5px;
+    width: 172px;
+    height: 53px;
+    border-radius: 4px;
+    background: #903AFF;
+    background: linear-gradient(to left, #903AFF, #D434FE, #FF26B9, #FE34B9);
+    border: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 700px){
     .container{
         flex-direction: column;
